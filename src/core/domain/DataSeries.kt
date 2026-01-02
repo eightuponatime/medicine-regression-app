@@ -4,7 +4,6 @@ import java.time.LocalDateTime
 
 data class DataSeries(
     val values: List<Double>,
-    val name: String,
     val timestamps: List<LocalDateTime>? = null
 ) {
     val size: Int

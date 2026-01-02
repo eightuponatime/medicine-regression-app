@@ -15,7 +15,7 @@ class ReadMimicTest {
             metric = Metrics.HEART_RATE.name
         )
 
-        println("${heartRate.name}\nsize: ${heartRate.values.size}")
+        println("size: ${heartRate.values.size}")
         println("first 5 values:")
         heartRate.values.take(5).forEachIndexed { index, value ->
             val timestamp = heartRate.timestamps?.get(index)

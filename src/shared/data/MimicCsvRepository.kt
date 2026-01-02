@@ -44,7 +44,6 @@ class MimicCsvRepository(
 
         return DataSeries(
             values = data.map { it.second },
-            name = "${metric}_patient_$patientId",
             timestamps = data.map { it.first }
         )
     }
