@@ -1,5 +1,7 @@
 #!/bin/bash
 # custom script to run certain tests
 
-# read csv test
-./gradlew test --tests data.ReadMimicTest --stacktrace
+./gradlew test \
+    --tests data.ReadMimicTest \
+    --tests algorithms.outliers.IQRDetectorTest \
+    --stacktrace
