@@ -13,3 +13,7 @@ build/
 /captures
 .externalNativeBuild
 .cxx
+
+# Emacs shit
+*.swp
+discord.log
